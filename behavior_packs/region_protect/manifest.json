@@ -1,0 +1,26 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "region_protect",
+    "description": "region_protect",
+    "uuid": "2bfae011-ef5c-40a9-8dff-bee1b78e6102",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "Script resources",
+      "language": "javascript",
+      "type": "script",
+      "uuid": "a8c2ce58-67b5-42ec-ad38-e3b39a4fd977",
+      "version": [0, 0, 1],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0-beta"
+    }
+  ]
+}
